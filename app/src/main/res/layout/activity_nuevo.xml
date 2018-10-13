@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Nuevo">
+
+    <EditText
+        android:id="@+id/lblNombre"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="@string/lbl1"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lblCodigo"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="@string/lbl2"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lblMateria"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="@string/lbl3"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lblParcial1"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="Primer Parcial     : 30%"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/lblParcial2"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="@string/lbl5"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/lblParcial3"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="Tercer Parcial      : 40%"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/btn3" />
+</LinearLayout>
